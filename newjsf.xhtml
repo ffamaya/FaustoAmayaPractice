@@ -3,7 +3,7 @@
     <head>
         <title>Test</title>
     </head>
-    <body>
+<body>
 <form>
     <input id="filter-for-listview" data-type="search" placeholder="Type to search...">
 </form>
@@ -13,7 +13,20 @@
     <li><a href="#">BMW</a></li>
     <li><a href="#">Cadillac</a></li>
     <li><a href="#">Ferrari</a></li>
+    <li><a href="#">Toyota</a></li>
 </ul>
-    </body>
-</html>
 
+    <label for="textinput-s">Text Input:</label>
+    <input name="textinput-s" id="textinput-s" placeholder="Text input" value="" data-clear-btn="true" type="text">
+    <label for="select-native-s">Select:</label>
+    <select name="select-native-s" id="select-native-s">
+        <option value="small">One</option>
+        <option value="medium">Two</option>
+        <option value="large">Three</option>
+        <option value="very-large">Four</option>
+    </select>
+    <label for="slider-s">Input slider:</label>
+    <input name="slider-s" id="slider-s" value="25" min="0" max="100" data-highlight="true" type="range">
+ </form>
+</body>
+</html>
